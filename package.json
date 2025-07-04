@@ -1,0 +1,25 @@
+{
+  "name": "jims-web-builder",
+  "version": "1.0.0",
+  "description": "A reactive, declarative, slot-driven component builder for the modern web — no build tools required.",
+  "main": "index.js",
+  "files": [
+    "dist/",
+    "index.js"
+  ],
+  "keywords": [
+    "component",
+    "web-components",
+    "ui-builder",
+    "dom",
+    "vue-alternative",
+    "frameworkless",
+    "jwb"
+  ],
+  "author": "Jimstech Innovations",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimstechinnovations/jims-web-builder.git"
+  }
+}
