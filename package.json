@@ -1,8 +1,13 @@
 {
   "name": "jims-web-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reactive, declarative, slot-driven component builder for the modern web — no build tools required.",
-  "main": "index.js",
+  "main": "@jwb.js",
+  "exports": {
+    "require": "./@jwb.js",
+    "import": "./@jwb.js"
+  },
+  "type": "module",
   "files": [
     "dist/",
     "index.js"
@@ -20,6 +25,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimstechinnovations/jims-web-builder.git"
-  }
+    "url": "git+https://github.com/jimstechinnovations/jims-web-builder.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jimstechinnovations/jims-web-builder/issues"
+  },
+  "homepage": "https://github.com/jimstechinnovations/jims-web-builder#readme"
 }
